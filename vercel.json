@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/api/virtual-tryon",
+        "destination": "http://165.22.218.124:8112/virtual-tryon"
+      }
+    ]
+  }
+  

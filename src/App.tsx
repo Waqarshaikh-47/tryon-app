@@ -58,7 +58,7 @@ const App: React.FC = () => {
     try {
       setIsLoading(true);
   
-      const response = await axios.post('http://165.22.218.124:8112/virtual-tryon', {
+      const response = await axios.post('/api/virtual-tryon', {
         clothImage,
         modelImage,
         clothType: 'tops', // or 'bottoms' if that's the correct type
